@@ -5,6 +5,7 @@
  */
 package view;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 /**
@@ -16,19 +17,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         while(t-- > 0) {
-            int n = sc.nextInt();
-            int[] a = new int[n];
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < n; j++)
-                    a[j] = sc.nextInt();
-                if (i%2 == 0) {
-                    for (int k : a)
-                        System.out.print(k + " ");
-                }
-                else {
-                    for (int j = n-1; j >= 0; --j)
-                        System.out.print(a[j] + " ");
-                }
+            int n = sc.nextInt(), h = sc.nextInt();
+            DecimalFormat f = new DecimalFormat("##.000000");
+            for (int i = 1; i < n; i++) {
+                System.out.print(f.format(h*Math.sqrt((double)i/n)) + " ");
             }
             System.out.println("");
         }

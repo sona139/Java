@@ -16,12 +16,13 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for (int i = 1; i <= n; i++) {
+            System.out.format("List(%d) = ", i);
             for (int j = 1; j <= n; j++) {
-                if(sc.nextInt() == 1 && j > i) {
-                    System.out.format("(%d,%d)", i, j);
-                    System.out.println("");
+                if(sc.nextInt() == 1) {
+                    System.out.print(j + " ");
                 }
             }
+            System.out.println("");
         }
     }
 }

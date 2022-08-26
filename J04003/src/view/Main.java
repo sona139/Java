@@ -5,6 +5,7 @@
  */
 package view;
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
@@ -14,14 +15,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
-                if(sc.nextInt() == 1 && j > i) {
-                    System.out.format("(%d,%d)", i, j);
-                    System.out.println("");
-                }
-            }
-        }
+        BigInteger a = new BigInteger(sc.next()), b = new BigInteger(sc.next());
+        BigInteger gcd = a.gcd(b);
+        a = a.divide(gcd);
+        b = b.divide(gcd);
+        System.out.println(a + "/" + b);
     }
 }
