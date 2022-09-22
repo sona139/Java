@@ -16,8 +16,8 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner sc = new Scanner(new File("XETTUYEN.in"));
-//        Scanner sc = new Scanner(System.in);
+//        Scanner sc = new Scanner(new File("XETTUYEN.in"));
+        Scanner sc = new Scanner(System.in);
         int n = Integer.parseInt(sc.nextLine());
         ArrayList<Student> students = new ArrayList<>();
         for (int i = 1; i <= n; i++)
@@ -139,4 +139,3 @@ final class Student {
         return id + " " + name + " " + getYearsOld() + " " + getScore() + " " + rank;
     }
 }
-

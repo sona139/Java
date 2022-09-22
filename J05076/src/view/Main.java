@@ -98,10 +98,9 @@ class IEProduct {
                 return 1.08;
             case "B":
                 return 1.05;
-            case "C":
+            default:
                 return 1.02;
         }
-        return 1.0;
     }
     
     private long getTotalPriceImport() {
