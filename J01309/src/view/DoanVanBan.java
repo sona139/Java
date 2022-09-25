@@ -15,6 +15,7 @@ public class DoanVanBan {
     private String s;
 
     public DoanVanBan() {
+        s = "";
     }
 
     public DoanVanBan(String s) {
@@ -37,7 +38,7 @@ public class DoanVanBan {
     }
     
     public void soCau() {
-        if (s == null) {
+        if (s.equals("")) {
             System.out.println("Ban chua nhap doan van ban!");
             System.out.println("----------------------------------------");
             return ;
@@ -51,7 +52,7 @@ public class DoanVanBan {
     }
     
     public void chuanHoa() {
-        if (s == null) {
+        if (s.equals("")) {
             System.out.println("Ban chua nhap doan van ban!");
             System.out.println("----------------------------------------");
             return ;

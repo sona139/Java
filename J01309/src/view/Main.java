@@ -144,7 +144,7 @@ public class Main {
         System.out.println("Lua chon 3: sap xep va in ra day so theo thu tu giam dan");
         System.out.println("Lua chon 4: nhap vao 1 doan van ban");
         System.out.println("Lua chon 5: dua ra so cau cua doan van ban");
-        System.out.println("Lua chon 6: chuan hoa va in ra doan van ban da chuan hoa");
+        System.out.println("Lua chon 6: chuan hoa va in ra doan van ban da5 chuan hoa");
         System.out.println("Lua chon 7: nhap vao 1 da thuc");
         System.out.println("Lua chon 8: tinh tong 2 da thuc");
         System.out.println("Lua chon 9: tinh thuong va phan du khi chia 2 da thuc");
