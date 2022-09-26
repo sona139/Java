@@ -28,7 +28,6 @@ public class Main {
         System.out.println("Lua chon 7: nhap vao 1 ma tran vuong");
         System.out.println("Lua chon 8: viet ra ma tran chuyen vi");
         System.out.println("Lua chon 9: dua ra hang hoac cot co tong lon nhat");
-        System.out.println("----------------------------------------");
         
         SoThuc st = new SoThuc();
         DaySoNguyen dsn = new DaySoNguyen();
@@ -36,6 +35,7 @@ public class Main {
         
         Scanner sc = new Scanner(System.in);
         while(true) {
+            System.out.println("----------------------------------------");
             System.out.print("Nhap lua chon (0-9): ");
             int choice = sc.nextInt();
             switch(choice) {
@@ -71,7 +71,6 @@ public class Main {
                     break;
                 default:
                     System.out.println("Moi ban nhap lai (0-9)");
-                    System.out.println("----------------------------------------");
             }
         }
     }
@@ -88,7 +87,6 @@ public class Main {
         System.out.println("Lua chon 7: nhap vao 1 ma tran vuong");
         System.out.println("Lua chon 8: dua ra cac hang chi co cac so duong chan");
         System.out.println("Lua chon 9: tim ma tran nghich dao");
-        System.out.println("----------------------------------------");
         
         SoNguyenFB sn = new SoNguyenFB();
         PhanSo ps = new PhanSo();
@@ -96,6 +94,7 @@ public class Main {
         
         Scanner sc = new Scanner(System.in);
         while(true) {
+            System.out.println("----------------------------------------");
             System.out.print("Nhap lua chon (0-9): ");
             int choice = sc.nextInt();
             switch(choice) {
@@ -131,7 +130,6 @@ public class Main {
                     break;
                 default:
                     System.out.println("Moi ban nhap lai (0-9)");
-                    System.out.println("----------------------------------------");
             }
         }
     }
@@ -148,7 +146,6 @@ public class Main {
         System.out.println("Lua chon 7: nhap vao 1 da thuc");
         System.out.println("Lua chon 8: tinh tong 2 da thuc");
         System.out.println("Lua chon 9: tinh thuong va phan du khi chia 2 da thuc");
-        System.out.println("----------------------------------------");
         
         DaySoThuc dst = new DaySoThuc();
         DoanVanBan dvb = new DoanVanBan();
@@ -158,6 +155,7 @@ public class Main {
         
         Scanner sc = new Scanner(System.in);
         while(true) {
+            System.out.println("----------------------------------------");
             System.out.print("Nhap lua chon (0-9): ");
             int choice = sc.nextInt();
             switch(choice) {
@@ -193,7 +191,6 @@ public class Main {
                     break;
                 default:
                     System.out.println("Moi ban nhap lai (0-9)");
-                    System.out.println("----------------------------------------");
             }
         }
     }

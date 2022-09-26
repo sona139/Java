@@ -50,13 +50,11 @@ public class MaTranVuong {
             for (int j = 0; j < n; j++)
                 mt[i][j] = sc.nextInt();
         }
-        System.out.println("----------------------------------------");
     }
     
     public void maTranChuyenVi() {
         if (n == 0) {
             System.out.println("Ban chua nhap ma tran!");
-            System.out.println("----------------------------------------");
             return ;
         }
         System.out.println("Ma tran chuyen vi la:");
@@ -65,13 +63,11 @@ public class MaTranVuong {
                 System.out.print(mt[j][i] + " ");
             System.out.println("");
         }
-        System.out.println("----------------------------------------");
     }
     
     public void hangHoacCotCoTongLonNhat() {
         if (n == 0) {
             System.out.println("Ban chua nhap ma tran!");
-            System.out.println("----------------------------------------");
             return ;
         }
         int[] sumRow = new int[n], sumCol = new int[n];
@@ -90,13 +86,11 @@ public class MaTranVuong {
         if(sumCol[colMax] > sumRow[rowMax])
             System.out.println("Cot co tong cac so lon nhat la cot " + colMax + ", tong = " + sumCol[colMax]);
         else System.out.println("Hang co tong cac so lon nhat la hang " + rowMax + ", tong = " + sumRow[rowMax]);
-        System.out.println("----------------------------------------");
     }
     
     public void hangChan() {
         if (n == 0) {
             System.out.println("Ban chua nhap ma tran!");
-            System.out.println("----------------------------------------");
             return ;
         }
         int row = 0;
@@ -116,7 +110,6 @@ public class MaTranVuong {
         if(row == 0) {
             System.out.println("Khong co hang nao cac phan tu deu chan");
         }
-        System.out.println("----------------------------------------");
     }
     
     public void reduction(float[][] mt, int pivot, int col) {
@@ -138,7 +131,6 @@ public class MaTranVuong {
     public void matranNghichDao() {
         if (n == 0) {
             System.out.println("Ban chua nhap ma tran!");
-            System.out.println("----------------------------------------");
             return ;
         }
         
@@ -158,6 +150,5 @@ public class MaTranVuong {
                 System.out.format("%8.3f ", newMt[i][j]);
             System.out.println("");
         }
-        System.out.println("----------------------------------------");
    }
 }

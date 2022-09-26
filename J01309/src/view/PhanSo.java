@@ -68,7 +68,6 @@ public class PhanSo {
         this.tu2 = sc.nextInt();
         System.out.print("Nhap mau so: ");
         this.mau2 = sc.nextInt();
-        System.out.println("----------------------------------------");
     }
     
     public int Gcd(int tu, int mau) {
@@ -84,7 +83,6 @@ public class PhanSo {
     public void tong() {
         if(mau1 == 0 || mau2 == 0) {
             System.out.println("Mau cua phan so phai khac 0");
-            System.out.println("----------------------------------------");
             return ;
         }
         int tu = this.tu1*this.mau2 + this.tu2*this.mau1;
@@ -93,13 +91,11 @@ public class PhanSo {
         tu /= gcd;
         mau /= gcd;
         System.out.println("Tong 2 phan so la: " + tu + "/" + mau);
-        System.out.println("----------------------------------------");
     }
     
     public void hieu() {
         if(mau1 == 0 || mau2 == 0) {
             System.out.println("Mau cua phan so phai khac 0");
-            System.out.println("----------------------------------------");
             return ;
         }
         int tu = this.tu1*this.mau2 - this.tu2*this.mau1;
@@ -108,6 +104,5 @@ public class PhanSo {
         tu /= gcd;
         mau /= gcd;
         System.out.println("Hieu 2 phan so la: " + tu + "/" + mau);
-        System.out.println("----------------------------------------");
     }
 }

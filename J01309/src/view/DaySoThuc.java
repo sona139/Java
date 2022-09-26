@@ -52,32 +52,27 @@ public class DaySoThuc {
             System.out.print("Nhap phan thu tu " + i + ": ");
             a[i] = sc.nextFloat();
         }
-        System.out.println("----------------------------------------");
     }
     
     public void phanTuNhoNhat() {
         if(n == 0) {
             System.out.println("Ban chua nhap day so!");
-            System.out.println("----------------------------------------");
             return ;
         }
         float min = Float.MAX_VALUE;
         for (float i : a)
             min = Math.min(min, i);
         System.out.println("Phan tu nho nhat cua day la: " + min);
-        System.out.println("----------------------------------------");
     }
     
     public void sapXep() {
         if(n == 0) {
             System.out.println("Ban chua nhap day so!");
-            System.out.println("----------------------------------------");
             return ;
         }
         Arrays.sort(a);
         System.out.print("Day so sau khi sap xep la: ");
         for (float i : a) System.out.print(i + " ");
         System.out.println("");
-        System.out.println("----------------------------------------");
     }
 }

@@ -33,7 +33,6 @@ public class SoNguyenFB {
         System.out.print("Nhap so nguyen duong n: ");
         Scanner sc = new Scanner(System.in);
         this.n = sc.nextInt();
-        System.out.println("----------------------------------------");
     }
     
     public boolean isPrime(int n) {
@@ -47,7 +46,6 @@ public class SoNguyenFB {
     public void fibo() {
         if(n <= 0) {
             System.out.println("N phai > 0");
-            System.out.println("----------------------------------------");
             return ;
         }
         int a = 0, b = 1;
@@ -60,13 +58,11 @@ public class SoNguyenFB {
             b = c;
         }
         System.out.println("");
-        System.out.println("----------------------------------------");
     }
     
     public void thuanNghich() {
         if(n <= 0) {
             System.out.println("N phai > 0");
-            System.out.println("----------------------------------------");
             return ;
         }
         StringBuilder number = new StringBuilder(Integer.toString(n));
@@ -74,6 +70,5 @@ public class SoNguyenFB {
         convert.reverse();
         if (number.toString().equals(convert.toString())) System.out.println("N la so thuan nghich");
         else System.out.println("N khong phai la so thuan nghich");
-        System.out.println("----------------------------------------");
     }
 }

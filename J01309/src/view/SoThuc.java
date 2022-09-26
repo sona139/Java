@@ -44,7 +44,6 @@ public class SoThuc {
         this.m = sc.nextInt();
         System.out.print("Nhap n: ");
         this.n = sc.nextInt();
-        System.out.println("----------------------------------------");
     }
     
     public int getGcd() {
@@ -60,13 +59,11 @@ public class SoThuc {
     public void uclnVaBcnn() {
         if(m <= 0 || n <= 0) {
             System.out.println("m va n phai lon hon 0");
-            System.out.println("----------------------------------------");
             return ;
         }
         int gcd = getGcd();
         System.out.println("Uoc chung lon nhat cua " + m + " va " + n + " la: " + gcd);
         System.out.println("Boi chung nho nhat cua " + m + " va " + n + " la: " + m/gcd*n/gcd*gcd);
-        System.out.println("----------------------------------------");
     }
     
     public boolean isPrime(int n) {
@@ -80,7 +77,6 @@ public class SoThuc {
     public void sntTuMDenN() {
         if(m <= 0 || n <= 0) {
             System.out.println("m va n phai lon hon 0");
-            System.out.println("----------------------------------------");
             return ;
         }
         System.out.print("Cac so nguyen to tu " + m + " den " + n + " la: ");
@@ -92,6 +88,5 @@ public class SoThuc {
             }
         System.out.println("");
         System.out.println("Co tat ca " + cnt + " so nguyen to tu " + m + " den " + n);
-        System.out.println("----------------------------------------");
     }
 }

@@ -51,13 +51,11 @@ public class DaThuc {
             System.out.print("Nhap he so cua x^" + i + ": ");
             dt[i] = sc.nextFloat();
         }
-        System.out.println("----------------------------------------");
     }
     
     public void cong(DaThuc other) {
         if(bac == 0) {
             System.out.println("Ban chua nhap da thuc P!");
-            System.out.println("----------------------------------------");
             return ;
         }
         int bac = Integer.max(this.bac, other.bac);
@@ -69,7 +67,6 @@ public class DaThuc {
         }
         System.out.println("Da thuc tong la: ");
         System.out.println(printDathuc(res));
-        System.out.println("----------------------------------------");
     }
     
     public String printDathuc(float heso[]) {
@@ -90,7 +87,6 @@ public class DaThuc {
     public void chia(DaThuc other) {
         if(bac == 0) {
             System.out.println("Ban chua nhap da thuc P!");
-            System.out.println("----------------------------------------");
             return ;
         }
         float[] cpy = new float[this.bac+1];
@@ -113,6 +109,5 @@ public class DaThuc {
         
         System.out.print("Da thuc du la: ");
         System.out.println(printDathuc(cpy));
-        System.out.println("----------------------------------------");
     }
 }

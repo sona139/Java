@@ -50,13 +50,11 @@ public class DaySoNguyen {
             System.out.print("Nhap phan thu tu " + i + ": ");
             a[i] = sc.nextInt();
         }
-        System.out.println("----------------------------------------");
     }
     
     public void GTLNvaGTNN() {
         if(n == 0) {
             System.out.println("Ban chua nhap day so!");
-            System.out.println("----------------------------------------");
             return ;
         }
         int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
@@ -66,13 +64,11 @@ public class DaySoNguyen {
         }
         System.out.println("Gia tri lon nhat cua day la: " + max);
         System.out.println("Gia tri nho nhat cua day la: " + min);
-        System.out.println("----------------------------------------");
     }
     
     public void soLanXuatHien() {
         if(n == 0) {
             System.out.println("Ban chua nhap day so!");
-            System.out.println("----------------------------------------");
             return ;
         }
         int[] map = new int[10000];
@@ -82,6 +78,5 @@ public class DaySoNguyen {
         for (int i = 0; i < 10000; i++)
             if(map[i] != 0)
                 System.out.println(i + " xuat hien " + map[i] + " lan");
-        System.out.println("----------------------------------------");
     }
 }

@@ -33,14 +33,14 @@ public class DoanVanBan {
     public void nhap() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Nhap doan van ban: ");
-        s = sc.nextLine();
-        System.out.println("----------------------------------------");
+        this.s = sc.nextLine();
+        char c = s.charAt(s.length()-1);
+        if(c != '.' && c != '?' && c != '!') this.s += '.';
     }
     
     public void soCau() {
         if (s.equals("")) {
             System.out.println("Ban chua nhap doan van ban!");
-            System.out.println("----------------------------------------");
             return ;
         }
         int soCau = 0;
@@ -48,13 +48,11 @@ public class DoanVanBan {
             if(s.charAt(i) == '.' || s.charAt(i) == '?' || s.charAt(i) == '!')
                 soCau++;
         System.out.println("Doan van ban co tat ca " + soCau + " cau");
-        System.out.println("----------------------------------------");
     }
     
     public void chuanHoa() {
         if (s.equals("")) {
             System.out.println("Ban chua nhap doan van ban!");
-            System.out.println("----------------------------------------");
             return ;
         }
         String cpy = "";
@@ -76,6 +74,5 @@ public class DoanVanBan {
         this.s = res;
         System.out.println("Doan van ban sau khi chuan hoa la:");
         System.out.println(s);
-        System.out.println("----------------------------------------");
     }
 }
