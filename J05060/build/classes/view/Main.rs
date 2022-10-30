@@ -1,0 +1,2 @@
+view.Student
+view.Main
