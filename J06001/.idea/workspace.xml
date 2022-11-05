@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cfbbe79-aa1c-47f0-a579-39662d97e1e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/J06001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J02104/build/classes/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../J02104/build/classes/view/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J02104/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J02104/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J04001/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J04001/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J05035/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J05035/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J05035/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J05035/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J05036/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J05036/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J05036/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J05036/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J05036/out/production/J05036/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../J05036/out/production/J05036/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J05036/out/production/J05036/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../J05036/out/production/J05036/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J05036/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../J05036/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J05067/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J05067/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J05067/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J05067/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J05076/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J05076/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J07006/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J07006/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J07029/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J07029/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../J07030/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../J07030/nbproject/private/private.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -27,12 +36,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hongs/OneDrive/Máy tính/Java/J06001&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

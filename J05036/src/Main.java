@@ -71,7 +71,7 @@ class Product {
 	}
 
 	private long getTransportFee() {
-		return Math.round(1.0*priceImport*numberImport/20);
+		return Math.round(0.05*(priceImport*numberImport));
 	}
 
 	private long getTotalPrice() {
@@ -79,7 +79,7 @@ class Product {
 	}
 
 	private long getPriceExport() {
-		return (long) (1.02*getTotalPrice());
+		return Math.round(1.02*getTotalPrice());
 	}
 
 	@Override
